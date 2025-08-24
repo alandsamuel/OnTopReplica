@@ -435,23 +435,23 @@ You can enable click-through later</value>
   <data name="MenuOp100TT" xml:space="preserve">
     <value>Sets OnTopReplica to be completely opaque.</value>
   </data>
-  <data name="MenuOp25" xml:space="preserve">
-    <value>25%</value>
+  <data name="MenuOp20" xml:space="preserve">
+    <value>20%</value>
   </data>
-  <data name="MenuOp25TT" xml:space="preserve">
-    <value>Sets OnTopReplica to 25% opacity.</value>
+  <data name="MenuOp20TT" xml:space="preserve">
+    <value>Sets OnTopReplica to 20% opacity.</value>
   </data>
-  <data name="MenuOp50" xml:space="preserve">
-    <value>50%</value>
+  <data name="MenuOp40" xml:space="preserve">
+    <value>40%</value>
   </data>
-  <data name="MenuOp50TT" xml:space="preserve">
-    <value>Sets OnTopReplica to 50% opacity.</value>
+  <data name="MenuOp40TT" xml:space="preserve">
+    <value>Sets OnTopReplica to 40% opacity.</value>
   </data>
-  <data name="MenuOp75" xml:space="preserve">
-    <value>75%</value>
+  <data name="MenuOp60" xml:space="preserve">
+    <value>60%</value>
   </data>
-  <data name="MenuOp75TT" xml:space="preserve">
-    <value>Sets OnTopReplica to 75% opacity.</value>
+  <data name="MenuOp60TT" xml:space="preserve">
+    <value>Sets OnTopReplica to 60% opacity.</value>
   </data>
   <data name="MenuOpacity" xml:space="preserve">
     <value>Opacity</value>
@@ -669,5 +669,11 @@ OnTopReplica will be closed and the update installed.</value>
   </data>
   <data name="RegionsY" xml:space="preserve">
     <value>Y</value>
+  </data>
+  <data name="MenuOp80" xml:space="preserve">
+    <value>80%</value>
+  </data>
+  <data name="MenuOp80TT" xml:space="preserve">
+    <value>Sets OnTopReplica to 80% opacity.</value>
   </data>
 </root>

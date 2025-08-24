@@ -58,11 +58,12 @@ namespace OnTopReplica {
 
         private void Menu_Opacity_opening(object sender, CancelEventArgs e) {
             ToolStripMenuItem[] items = {
-				toolStripMenuItem1,
-				toolStripMenuItem2,
-				toolStripMenuItem3,
-				toolStripMenuItem4
-			};
+				toolStripMenu100,
+                toolStripMenu80,
+				toolStripMenu60,
+                toolStripMenu40,
+                toolStripMenu20
+            };
 
             foreach (ToolStripMenuItem i in items) {
                 if (((double)i.Tag) == this.Opacity)

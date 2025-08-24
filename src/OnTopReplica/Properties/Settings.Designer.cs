@@ -12,7 +12,7 @@ namespace OnTopReplica.Properties {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "15.1.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "17.9.0.0")]
     internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
         
         private static Settings defaultInstance = ((Settings)(global::System.Configuration.ApplicationSettingsBase.Synchronized(new Settings())));
@@ -247,6 +247,78 @@ namespace OnTopReplica.Properties {
             }
             set {
                 this["RestoreLastShowChrome"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("[CTRL]+[SHIFT]+F1")]
+        public string HotKeyOpacity100 {
+            get {
+                return ((string)(this["HotKeyOpacity100"]));
+            }
+            set {
+                this["HotKeyOpacity100"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("[CTRL]+[SHIFT]+F2")]
+        public string HotKeyOpacity80 {
+            get {
+                return ((string)(this["HotKeyOpacity80"]));
+            }
+            set {
+                this["HotKeyOpacity80"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("[CTRL]+[SHIFT]+F3")]
+        public string HotKeyOpacity60 {
+            get {
+                return ((string)(this["HotKeyOpacity60"]));
+            }
+            set {
+                this["HotKeyOpacity60"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("[CTRL]+[SHIFT]+F4")]
+        public string HotKeyOpacity40 {
+            get {
+                return ((string)(this["HotKeyOpacity40"]));
+            }
+            set {
+                this["HotKeyOpacity40"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("[CTRL]+[SHIFT]+F5")]
+        public string HotKeyOpacity20 {
+            get {
+                return ((string)(this["HotKeyOpacity20"]));
+            }
+            set {
+                this["HotKeyOpacity20"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("[CTRL]+[SHIFT]+F12")]
+        public string HotKeyClickThrough {
+            get {
+                return ((string)(this["HotKeyClickThrough"]));
+            }
+            set {
+                this["HotKeyClickThrough"] = value;
             }
         }
     }

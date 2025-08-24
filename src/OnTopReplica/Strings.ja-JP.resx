@@ -671,4 +671,10 @@ OnTopReplica will be closed and the update installed.</value>
   <data name="RegionsY" xml:space="preserve">
     <value>Y</value>
   </data>
+  <data name="MenuOp90" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MenuOp90TT" xml:space="preserve">
+    <value />
+  </data>
 </root>

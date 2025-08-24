@@ -98,6 +98,12 @@ namespace OnTopReplica.MessagePumpProcessors {
 
             RegisterHandler(Settings.Default.HotKeyCloneCurrent, HotKeyCloneHandler);
             RegisterHandler(Settings.Default.HotKeyShowHide, HotKeyShowHideHandler);
+            RegisterHandler(Settings.Default.HotKeyClickThrough, HotKeyToggleClickThroughHandler);
+        }
+
+        private void HotKeyToggleClickThroughHandler() {
+            //Handle Enable ClickThrough
+            Program.Platform.RestoreForm(Form);
         }
 
         private void RegisterHandler(string spec, HotKeyHandler handler) {
